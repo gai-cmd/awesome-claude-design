@@ -2,6 +2,42 @@
 
 > 📦 **This fork includes the actual files.** The upstream repo is a catalog of links to [getdesign.md](https://getdesign.md). This fork additionally vendors the real `DESIGN.md` files for all 75 design systems under [`design-systems/`](./design-systems/) (see [`design-systems/INDEX.md`](./design-systems/INDEX.md)) so they work offline / on any device. Source: [`getdesign`](https://www.npmjs.com/package/getdesign) npm v0.6.24 (MIT).
 
+<details>
+<summary>🇰🇷 <b>한국어 사용법 — 다른 기기에서 디자인 스타일 쓰기</b> (클릭해서 펼치기)</summary>
+
+<br/>
+
+이 포크에는 **75개 브랜드의 실제 `DESIGN.md` 파일**이 [`design-systems/`](./design-systems/) 폴더에 들어 있습니다. 전체 목록은 [`design-systems/INDEX.md`](./design-systems/INDEX.md)에서 볼 수 있어요.
+
+**`DESIGN.md`가 뭔가요?** 한 브랜드의 색·폰트·컴포넌트 규칙을 한 파일에 담은 "디자인 명세서"입니다. [Claude Design](https://claude.ai/design)에 올리면 색 토큰·타이포·버튼/카드·UI 킷이 한 번에 자동 생성됩니다.
+
+### 1. 파일 받기
+
+- **전부 받기 (터미널):**
+  ```bash
+  git clone https://github.com/gai-cmd/awesome-claude-design.git
+  ```
+  → `design-systems/<브랜드>/DESIGN.md` 에서 원하는 파일을 엽니다.
+
+- **하나만 받기 (브라우저):** 아래 주소에서 `claude` 부분만 원하는 브랜드로 바꿔 여세요.
+  ```
+  https://raw.githubusercontent.com/gai-cmd/awesome-claude-design/main/design-systems/claude/DESIGN.md
+  ```
+  예: `stripe`, `apple`, `notion`, `tesla`, `vercel` … (전체 이름은 `INDEX.md` 참고)
+
+### 2. Claude Design에서 쓰기
+
+1. [claude.ai/design](https://claude.ai/design) 접속
+2. **방법 A** — *Create new design system* → *Add assets* 에 받은 `DESIGN.md` 업로드
+   **방법 B** — 새 프로토타입 채팅에 `DESIGN.md`를 첨부하고 **"Create a design system from this DESIGN.md"** 입력
+3. 몇 분 뒤 색·타이포·컴포넌트·UI 킷이 담긴 디자인 시스템이 자동으로 완성됩니다.
+
+> 💡 어느 기기에서든 위 방법으로 받아 그대로 쓸 수 있고, 외부 사이트(getdesign.md)가 닫혀도 이 레포에 파일이 보관돼 있어 항상 사용 가능합니다.
+
+</details>
+
+<br/>
+
 <a href="https://github.com/VoltAgent/voltagent">
 <img width="1500"  alt="claude-design" src="https://github.com/user-attachments/assets/c679bd35-ba7e-4d6f-834d-3f4b6e5a35e4" />
 </a>
