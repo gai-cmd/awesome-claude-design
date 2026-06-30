@@ -1,5 +1,7 @@
 
 
+> 📦 **This fork includes the actual files.** The upstream repo is a catalog of links to [getdesign.md](https://getdesign.md). This fork additionally vendors the real `DESIGN.md` files for all 75 design systems under [`design-systems/`](./design-systems/) (see [`design-systems/INDEX.md`](./design-systems/INDEX.md)) so they work offline / on any device. Source: [`getdesign`](https://www.npmjs.com/package/getdesign) npm v0.6.24 (MIT).
+
 <a href="https://github.com/VoltAgent/voltagent">
 <img width="1500"  alt="claude-design" src="https://github.com/user-attachments/assets/c679bd35-ba7e-4d6f-834d-3f4b6e5a35e4" />
 </a>
